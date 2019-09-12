@@ -1,0 +1,4 @@
+path="F:/7th sem/Lab"
+setwd(path)
+dataval=read.csv("Diamonds_Value.csv")
+plot(dataval$carat,dataval$price)
